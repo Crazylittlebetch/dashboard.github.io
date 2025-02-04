@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_one{
+    background-color: #14213d;
+    color: whitesmoke;
+    margin: 2rem;
+    padding: 1rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.box_one .box_two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box_one h2{
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.box_one h3{
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.box_one .chart_bar{
+    height: 20rem;
+    width: 36rem;
+}
+
+.box_one .box_two .chart_bar .bar_prop .bar{
+    background: #e5e5e5;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #000000;
+}
+
+.box_one .chart_pie{
+    height: 20rem;
+    width: 36rem;
+    justify-items: center;
+}
+
+.box_one .chart_pie .pie{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    background-image: conic-gradient(#8a2be2 75deg, #486de7 0 125deg, #d7ac55 0 190deg, #c55151 0 95deg);
+}

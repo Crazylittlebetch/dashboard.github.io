@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_prop{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_prop button{
+    height: 8rem;
+    width: 24rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.button_prop button:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.button_prop button:active{
+    opacity: 50%;
+}
